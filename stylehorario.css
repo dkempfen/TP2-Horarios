@@ -1,0 +1,108 @@
+.margen {
+    padding: 5px;
+
+}
+
+.pie {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #999999;
+    background: white;
+}
+
+
+#primer {
+    background-color: #76C295;
+}
+
+#segunda {
+    background-color: #5999C2;
+}
+
+#principal {
+    text-align: center;
+}
+
+.contenedor {
+    background-color:#EABB6B;
+    border: 1px solid #999999;
+    padding: 0 20px 35px 5px;
+
+}
+
+.encabezado {
+    text-align: center;
+    margin: 40px 80px 16px 85px;
+    font-style: italic;
+
+}
+
+.foto1 {
+    width: 120px;
+    height: 120px;
+    margin: 11px;
+    margin-left: 1px;
+    border: 2px solid black;
+    float: left;
+}
+
+.foto2 {
+    width: 120px;
+    height: 120px;
+    margin: 22px 80px 16px 25px;
+    border: 2px solid black;
+    float: left;
+}
+
+#tabla {
+    background: white;
+}
+
+#agrupar {
+    width: 95%;
+    margin: 15px auto;
+    background:beige; 
+}
+
+.articulos {
+    text-align: center;
+    margin: 56px auto;
+}
+
+.striped {
+
+    --bs-table-accent-bg: var(--bs-table-striped-bg);
+}
+
+@media screen and (max-width: 1200px) {
+
+    .foto1 {
+        display: none;
+    }
+
+    .encabezado {
+       
+        display: none;
+
+    }
+
+}
+
+
+@media screen and (min-width: 1210px) {
+
+    .foto2 {
+        display: none;
+     
+
+    }
+
+    .encabezado1 {
+       
+        display: none;
+
+    }
+
+
+}
